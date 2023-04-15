@@ -1,0 +1,124 @@
+.navbar-nav, nav a{ 
+    font-weight: 600 ;
+    font-size: small;
+}
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled {
+    background-color: black;
+}
+
+
+
+body{
+    background-color: black;
+}
+ 
+#dropdownMenuButton2 ,
+ #dropdownMenuButton3{
+    border: none;
+}
+
+h3{
+    font-weight: 700;
+}
+ 
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+}
+
+.card {
+    position: relative;
+  }
+  
+  .card:hover img {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+  
+  .card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .card .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .card:hover .text {
+    opacity: 1;
+  }
+  
+
+
+
+
+  
+#nutton{
+    box-sizing: border-box;
+    border: 1px black solid;
+    font-weight: 500;
+    max-width: 100%;
+}
+#nutton:hover{
+    transform: scale(1.2);
+    transition: 1.2s ease;
+    background-color: rgb(177, 210, 210);
+}
+.img-fluid:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+    overflow:hidden;
+}
+
+ul li a.text-secondary{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+ul li a.text-secondary:hover{
+    text-decoration: underline;
+}
+
+
+.icon a{
+    display: inline;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 10px;
+    color: aliceblue;
+}
+ video{
+    width: 100%;
+ }
+ h2{
+    font-weight: 700;
+    font-size: 10vh;
+ }
+
+ h4{
+    font-weight: 500;
+ }
